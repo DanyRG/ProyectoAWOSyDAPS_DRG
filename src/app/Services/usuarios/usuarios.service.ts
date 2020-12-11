@@ -6,7 +6,7 @@ import { UsuarioModel } from '../../Models/usuarios';
   providedIn: 'root'
 })
 export class UsuariosService {
-  url = 'https://equipo2-4e-2do-parcial-awos.herokuapp.com';
+  url = 'https://proyecto-2do-parcial.herokuapp.com';
 
   constructor(private http: HttpClient) { }
 

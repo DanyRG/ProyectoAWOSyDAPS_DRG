@@ -1,8 +1,8 @@
 
 .body {
-    background: #e8cbc0;
-    background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
-    background: linear-gradient(to right, #e8cbc0, #636fa4);
+    background: #ffffff;
+    background: -webkit-linear-gradient(to right, #ffffff, #ffffff);
+    background: linear-gradient(to right, #ffffff, #ffffff);
     min-height: 100vh;
 }
 
@@ -13,7 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #666;
+    color: rgb(255, 255, 255);
     border-radius: 50%;
     transition: all 0.3s;
     font-size: 0.9rem;
@@ -22,5 +22,5 @@
 .social-link:hover, .social-link:focus {
     background: #ddd;
     text-decoration: none;
-    color: #555;
+    color: rgb(255, 255, 255);
 }

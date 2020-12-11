@@ -6,7 +6,7 @@ import { PrestamoModel } from '../../Models/prestamos';
   providedIn: 'root'
 })
 export class PrestamosService {
-  url = 'https://equipo2-4e-2do-parcial-awos.herokuapp.com';
+  url = 'https://proyecto-2do-parcial.herokuapp.com';
 
   constructor(private http: HttpClient) { }
 
